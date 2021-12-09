@@ -152,11 +152,15 @@ nav {
 .navbar .logo {
   width: 120px;
   height: 24px;
-  background-image: url(./img/logo_w\(null\).svg);
+  background-image: url(../img/logo_w\(null\).svg);
   background-repeat: no-repeat;
   text-indent: 101%;
   white-space: nowrap;
   overflow: hidden;
+}
+.navbar .logo a {
+  display: block;
+  height: 100%;
 }
 .navbar .menu {
   display: flex;
@@ -486,6 +490,9 @@ nav {
   border-radius: 3px;
   color: #fff;
   padding: 0.5rem 1.5rem;
+}
+.btn-group a:hover {
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.05) 40%, rgba(0, 0, 0, 0.1));
 }
 .btn-group .cancel {
   background: rgba(0, 0, 0, 0.35);
