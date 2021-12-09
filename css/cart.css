@@ -135,6 +135,11 @@ body {
 }
 
 /*********/
+.wrap {
+  min-height: 100vh;
+  padding-bottom: 200px;
+  position: relative;
+}
 .container {
   max-width: 1000px;
   margin: 0 auto;
@@ -411,6 +416,9 @@ footer {
   padding: 3rem 3rem;
   display: flex;
   color: #3d1101;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 footer h3 {
   font-size: 1.25rem;
